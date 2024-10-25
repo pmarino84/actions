@@ -1,6 +1,6 @@
 import { ACTIONS_SEPARATOR } from "./constants.ts";
 
-export function combineActions(...actions: Array<string>) {
+export function combineActions(...actions: Array<string>): string {
   let list = [];
   if (actions.length === 1) {
     const input = actions[0];
