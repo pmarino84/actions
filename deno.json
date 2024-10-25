@@ -1,0 +1,19 @@
+{
+  "name": "@pietro/actions",
+  "version": "0.0.1",
+  "tasks": {
+    "example": "deno run ./example/index.ts",
+    "example:watch": "deno run --watch ./example/index.ts"
+  },
+  "imports": {
+  },
+  "exports": {
+    ".": "./mod.ts",
+    "./combineActions": "./combineActions.ts",
+    "./constants": "./constants.ts",
+    "./createAction": "./createAction.ts",
+    "./createDispatcher": "./createDispatcher.ts",
+    "./splitActionTypes": "./splitActionTypes.ts",
+    "./types": "./types.ts"
+  }
+}
