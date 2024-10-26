@@ -1,5 +1,16 @@
 import { ACTIONS_SEPARATOR } from "./constants.ts";
 
+/**
+ * Combine the given actions in one type.
+ * @param actions Actions to combine
+ * @returns       The given actions joined with the {@link ACTIONS_SEPARATOR}
+ *
+ * ```ts
+ * import { combineActions } from "@pietro/actions";
+ *
+ * const combined = combineActions("CANCEL", "SAVE"); // combined = CANCEL|SAVE
+ * ```
+ */
 export function combineActions(...actions: Array<string>): string {
   let list = [];
   if (actions.length === 1) {
