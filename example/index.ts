@@ -1,6 +1,4 @@
-import combineActions from "../combineActions.ts";
-import createAction from "../createAction.ts";
-import createDispatcher from "../createDispatcher.ts";
+import { combineActions, createAction, createDispatcher } from "../mod.ts";
 import FakeWebSocket from "./FakeWebsocket.ts";
 import logAction from "./logActions.ts";
 
