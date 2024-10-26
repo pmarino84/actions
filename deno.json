@@ -1,12 +1,11 @@
 {
   "name": "@pietro/actions",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "tasks": {
     "example": "deno run ./example/index.ts",
     "example:watch": "deno run --watch ./example/index.ts"
   },
-  "imports": {
-  },
+  "imports": { "@std/expect": "jsr:@std/expect@^1.0.6" },
   "exports": {
     ".": "./mod.ts",
     "./combineActions": "./combineActions.ts",
