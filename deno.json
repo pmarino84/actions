@@ -7,11 +7,6 @@
   },
   "imports": { "@std/expect": "jsr:@std/expect@^1.0.6" },
   "exports": {
-    ".": "./mod.ts",
-    "./combineActions": "./combineActions.ts",
-    "./constants": "./constants.ts",
-    "./createAction": "./createAction.ts",
-    "./createDispatcher": "./createDispatcher.ts",
-    "./types": "./types.ts"
+    ".": "./mod.ts"
   }
 }
